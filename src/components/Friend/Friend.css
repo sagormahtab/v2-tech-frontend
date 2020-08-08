@@ -1,0 +1,9 @@
+.message{
+    color: black;
+}
+.btm-border{
+    border-bottom: 1px solid lightgray;
+}
+.no-border{
+    border-bottom: none;
+}

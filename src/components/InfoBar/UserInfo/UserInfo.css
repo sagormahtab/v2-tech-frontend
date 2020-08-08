@@ -1,0 +1,12 @@
+.userInfo h4, p{
+    color: white;
+    margin-bottom: 0;
+}
+.user-img{
+    border: 1px solid white;
+    width: 60px;
+}
+.onlineIcon{
+    width: 15px;
+    transform: translate(-111%, 138%);
+}

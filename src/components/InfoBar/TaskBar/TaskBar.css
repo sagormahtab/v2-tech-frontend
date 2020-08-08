@@ -1,0 +1,12 @@
+.taskbar, .taskbar a{
+    color: white;
+}
+
+.taskbar a{
+    text-decoration: underline;
+    font-size: 20px;
+}
+.ellipsisV{
+    font-size: 26px;
+    margin-left: 20px;
+}

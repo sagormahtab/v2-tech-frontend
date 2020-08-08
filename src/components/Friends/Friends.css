@@ -1,0 +1,42 @@
+.iconSize{
+    height: 30px;
+}
+.rounded-border{
+    border-radius: 10px !important;
+}
+.gray-bg{
+    background-color: #F5F5F5;
+}
+.searchIcon{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 99;
+}
+.searchField{
+    padding: 25px 0 25px 15px !important;
+}
+.searchField::placeholder{
+    color: #BCC5D3;
+}
+.gridsquare{
+    border: 1px solid lightgray;
+    padding: 10px;
+    border-radius: 10px;
+}
+.sub-sec-border{
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    padding: 7px 0;
+}
+.inviteFriendIcon{
+    height: 25px;
+}
+.invite-friend-wrp{
+    padding: 20px 0;
+}
+.invite-friend-wrp span{
+    font-weight: 500;
+    font-size: 18px;
+    margin-left: 15px;
+}
