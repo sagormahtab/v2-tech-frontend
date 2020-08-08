@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEdit, faBell } from '@fortawesome/free-regular-svg-icons';
 import 'antd/dist/antd.css';
 import { DatePicker, TimePicker, Input } from 'antd';
+import SubTask from '../SubTask/SubTask';
 
 const Tasks = () => {
 
@@ -36,6 +37,8 @@ const Tasks = () => {
                     prefix={<FontAwesomeIcon className="pr-2" style={{fontSize: '25px'}} icon={faBell} />} />
                 </div>
             </div>
+
+            <SubTask />
         </div>
     );
 };
