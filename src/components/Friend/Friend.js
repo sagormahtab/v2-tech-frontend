@@ -5,7 +5,7 @@ const Friend = ({friend, frndLen, frndIndex}) => {
     const {name, picture} = friend;
     return (
         <div 
-        className={`d-flex align-items-center pb-4 pt-4 
+        className={`d-flex align-items-center p-left pb-4 pt-4 
         ${frndIndex === frndLen ? "no-border" : "btm-border"}`}
         >
             <div>

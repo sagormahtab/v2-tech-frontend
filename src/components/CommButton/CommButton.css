@@ -1,0 +1,8 @@
+.commButton{
+    border: none;
+    width: 100%;
+    font-size: 18px;
+    padding: 20px 0;
+    border-radius: 10px;
+    font-weight: 500;
+}

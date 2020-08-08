@@ -1,3 +1,8 @@
 h4, p{
     color: black;
 }
+.chat-wrp{
+    background: url('../../images/chat-bg.png') no-repeat;
+    background-position: center center;
+    background-size: 60%;
+}

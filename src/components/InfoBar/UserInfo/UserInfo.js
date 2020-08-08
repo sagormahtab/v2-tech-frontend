@@ -4,7 +4,7 @@ import onlineIcon from '../../../images/onlineIcon.png';
 
 const UserInfo = ({UserImage}) => {
     return (
-        <div className="userInfo topBottomPadding d-flex align-items-center" style={{borderRight: '1px solid white'}}>
+        <div className="userInfo p-left topBottomPadding d-flex align-items-center" style={{borderRight: '1px solid white'}}>
             <div>
                 <img className="rounded-circle img-fluid user-img" src={UserImage} alt="User"/>
                 <img className="onlineIcon" src={onlineIcon} alt="online Icon"/>

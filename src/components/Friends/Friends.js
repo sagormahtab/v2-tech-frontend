@@ -17,7 +17,7 @@ const Friends = () => {
 
     return (
         <div style={{borderRight: '1px solid lightgray'}}>
-            <div className="row" style={{paddingTop: '2.3rem'}}>
+            <div className="row p-left" style={{paddingTop: '2.3rem'}}>
                 <div className="col-md-2">
                     <img className="img-fluid gridsquare" src={gridSquare} alt="grid square"/>
                 </div>
@@ -35,7 +35,7 @@ const Friends = () => {
                 </div>
             </div>
             <p className="text-capitalize muted-clr text-center sub-sec-border mt-2">Add task</p>
-            <div className="invite-friend-wrp">
+            <div className="invite-friend-wrp p-left">
                 <img src={inviteFriendIcon} className="inviteFriendIcon" alt="Invite Friend"/>
                 <span>Invite a friend</span>
             </div>

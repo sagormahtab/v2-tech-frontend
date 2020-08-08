@@ -7,3 +7,6 @@ h1, h2, h3, h4, h5, h6, p, a, span {
 .no-mr{
   margin-right: 0 !important;
 }
+.p-left{
+  padding-left: 20px !important;
+}

@@ -36,6 +36,7 @@ const SubTask = () => {
         const filteredTasks= tasks.filter(tsk =>
             tsk!==task);
         setTasks(filteredTasks);
+        console.log(tasks);
     }
 
     const handleCheckBox = (e) => {
@@ -58,7 +59,7 @@ const SubTask = () => {
 
             {
                 tasks.map((task, i) => <div className="d-flex justify-content-between align-items-center" key={i}>
-                    <div className="check-container">
+                    <div className="check-container" style={{width: '100%'}}>
                         <div class="checkbox">
                             <input type="checkbox" id={`checkbox${i}`} name="" value="" onChange={handleCheckBox} />
                             <label for={`checkbox${i}`}><span className="taskLabel">{task}</span></label>

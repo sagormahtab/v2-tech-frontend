@@ -5,6 +5,8 @@ import { faEdit, faBell } from '@fortawesome/free-regular-svg-icons';
 import 'antd/dist/antd.css';
 import { DatePicker, TimePicker, Input } from 'antd';
 import SubTask from '../SubTask/SubTask';
+import FileUpload from '../FileUpload/FileUpload';
+import CommButton from '../CommButton/CommButton';
 
 const Tasks = () => {
 
@@ -39,6 +41,16 @@ const Tasks = () => {
             </div>
 
             <SubTask />
+            <FileUpload />
+
+            <div className="row mt-3">
+                <div className="col-md-6">
+                    <CommButton text="Cancel" type="gray" />
+                </div>
+                <div className="col-md-6">
+                    <CommButton text="Update" type="black" />
+                </div>
+            </div>
         </div>
     );
 };
