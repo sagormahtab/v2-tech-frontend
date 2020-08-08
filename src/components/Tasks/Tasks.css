@@ -1,0 +1,26 @@
+.task-container{
+    width: 90%;
+    margin: auto;
+}
+.task-desc{
+    border: 2px solid #E2E2E2;
+    border-radius: 10px;
+    padding: 20px 15px;
+}
+.task-desc p{
+    font-weight: 500;
+}
+.editIcon{
+    color: #C1C9D6;
+    font-size: 25px;
+}
+.ant-picker-input input{
+    order: 2;
+}
+.ant-picker-suffix{
+    order: 1;
+    padding-right: 10px;
+}
+.reminderInput input::placeholder{
+    color: black;
+}

@@ -1,6 +1,9 @@
-.userInfo h4, p{
+.userName, .userStatus{
     color: white;
     margin-bottom: 0;
+}
+.userStatus{
+    font-size: 18px;
 }
 .user-img{
     border: 1px solid white;

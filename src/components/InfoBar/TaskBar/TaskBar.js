@@ -6,7 +6,7 @@ import { faEllipsisV } from '@fortawesome/free-solid-svg-icons'
 const TaskBar = () => {
     return (
         <div className="taskbar d-flex justify-content-between">
-            <h4>Add New Task</h4>
+            <h4 className="addTask">Add New Task</h4>
             <div className="d-flex align-items-center">
                 <a href="/">
                     to <span className="font-weight-bold">Assigned Person Name</span>

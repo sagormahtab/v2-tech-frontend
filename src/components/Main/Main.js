@@ -1,6 +1,7 @@
 import React from 'react';
 import './Main.css';
 import Friends from '../Friends/Friends';
+import Tasks from '../Tasks/Tasks';
 
 const Main = () => {
     return (
@@ -9,7 +10,7 @@ const Main = () => {
                 <Friends />
             </div>
             <div className="col-md-6">
-
+                <Tasks />
             </div>
             <div className="col-md-3">
 

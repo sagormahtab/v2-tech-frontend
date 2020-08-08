@@ -10,8 +10,8 @@ const UserInfo = ({UserImage}) => {
                 <img className="onlineIcon" src={onlineIcon} alt="online Icon"/>
             </div>
             <div>
-                <h4>Raiyad Raad</h4>
-                <p>Status will be here</p>
+                <h4 className="userName">Raiyad Raad</h4>
+                <p className="userStatus">Status will be here</p>
             </div>
         </div>
     );
